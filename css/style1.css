@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding-left: 1.875vw;
+}
+
+.flex_card {
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 0.75vw;
+
+
+}
+.flex_card__37b0ae{
+  background-color: #37b0ae;
+   max-width: 28.125vw;
+    height: 37.5vw;
+    position: relative;
+    margin-bottom: -0.75vw;
+}
+h3{position: relative;
+    top: -16.875vw;
+    left: 5vw;
+    color: white;
+    font-family: 'Montserrat Light', sans-serif;
+    font-size: 2vw;
+}
+.foto{
+    height: 94.5%;
+    width: 90%;
+    object-fit: scale-down;
+    position: absolute;
+    margin-left: -2.5vw;
+    z-index: 2;
+}
+.shadow{
+    width: 100%;
+    object-fit: scale-down;
+    position: relative;
+    margin-left: -3.4375vw;
+    margin-bottom: -18.125vw;
+    z-index: 1;}
+.flex_card__white{
+    display: block;
+    width: 28.125vw;
+    height: 43.75vw;
+    border: 0.0125vw solid black;
+    padding-left: 2.5vw;
+
+}
+h1{ font-size: 2.125vw;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 4.375vw;
+    margin-left: 3.75vw;
+}
+h2{font-size: 1vw;
+    font-family: 'Montserrat ExtraLight';
+     margin-top: 0.625vw;
+    margin-left: 3.75vw;
+}
+h4{font-size: 0.8125vw;
+    font-family: 'Montserrat ExtraLight';
+    margin-top: 2.5vw;
+    margin-left: 3.75vw;
+}
+ul{
+    margin-top: 1.25vw;
+    margin-left: 4.375vw;
+
+}
+li{ font-size: 0.6875vw;
+    font-family: 'Montserrat SemiBold';
+    margin-top: 1.25vw}
+li:last-child{
+    margin-bottom: 2.5vw;
+}
+a.one{
+    margin-left: 3.75vw;
+}
+a{font-size: 0.6875vw;
+    color: #211d1d;
+    font-family: 'Montserrat SemiBold';
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */}
+
+a:hover {
+    text-decoration: underline #37b0ae;
+    font-family: 'Montserrat ExtraLight';
+}
+
+p.qu{ font-size: 0.6875vw;
+    margin-left: 3.75vw;
+    margin-top: 1.875vw;
+    font-family: 'Montserrat SemiBold';
+}
+
+.prise{
+    margin-left: 3.75vw;}
+
+
+.flex_vubor{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 0.625vw;
+    margin-bottom: 1vw;
+    height: 1.875vw;
+    margin-left: 3.75vw;
+}
+
+.flex_vubor__-{
+      width: 1.875vw;
+      height: 1.875vw;
+    /*margin-left: 30px;*/
+    align-content: center;
+    justify-content: center;
+  }
+.flex_vubor__1{
+    width: 1.875vw;
+    height: 1.875vw;
+    border-top: .006vw solid gray;
+    border-bottom: .006vw solid gray;
+   /* text-align: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex_vubor__0{
+    width:1.875vw;
+    height: 1.875vw;
+    align-content: center;
+    justify-content: center;
+
+}
+input.plus{
+    width: 1.875vw;
+    height: 1.875vw;
+}
+
+
+
+.flex_knopka{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: -1.25vw;
+    margin-top: 0.9375vw;
+}
+
+.knopka1{
+     margin: 0;
+     padding: 0;
+     width: 11.25vw;
+     height: 2.625vw;
+   background: #37b0ae;
+    border-color: #37b0ae;
+    margin-right: -2.5vw;
+    font-family: 'Montserrat SemiBold';
+ }
+.knopka2{
+    margin: 0;
+    padding: 0;
+    width: 11.25vw;
+    height: 2.625vw;
+    background: white;
+    border-color: #37b0ae;
+    margin-right: -2.8125vw;
+    font-family: 'Montserrat SemiBold';
+}
+span{
+    font-size: 0.875vw;
+    font-family: 'Montserrat ExtraLight';
+}
+.prise{
+    font-size: 2.3125vw;
+    margin-right: 0.625vw;
+    font-family: 'Montserrat ExtraLight';
+}
+
+
+
+
+.flex_picture{
+    display: flex;
+    flex-direction: column;
+    width: 6.25vw;
+    height: 20vw;
+    position: relative;
+    margin: auto;
+    z-index: 2;
+    top: -31.25vw;
+    left: -1.5625vw;
+    justify-content: space-between;
+
+}
+.flex_picture1{
+    width: 6.25vw;
+    height: 6.25vw;
+    background-color: rgba(252, 252, 252, 0.7);
+    box-shadow: 0 0 0.625vw rgba(0,0,0,0.5); /* Параметры тени */
+    margin-bottom: 0.625vw;
+
+}
+.flex_picture2{
+    width: 6.25vw;
+    height: 6.25vw;
+    background-color: rgba(252, 252, 252, 0.7);
+    box-shadow: 0 0 0.625vw rgba(0,0,0,0.5); /* Параметры тени */
+
+}
+.flex_picture3{
+    width: 6.25vw;
+    height: 6.25vw;
+    background-color: rgba(252, 252, 252, 0.7);
+    box-shadow: 0 0 0.625vw rgba(0,0,0,0.5); /* Параметры тени */
+    margin-top: 0.625vw;
+}
+
+.fotom{
+     width: 100%;
+ }
+
+.flex_picture1:hover{
+    cursor: pointer;
+    background-color: rgba(252, 252, 252, 0.95);
+    width: 7.5vw;
+    height: 7.5vw;
+    transition: all 300ms;
+    margin-left: -0.625vw;
+    margin-bottom: 0.625vw;
+}
+.flex_picture2:hover{
+    cursor: pointer;
+    background-color: rgba(252, 252, 252, 0.95);
+    width: 7.5vw;
+    height: 7.5vw;
+    transition: all 300ms;
+    margin-left: -0.625vw;
+
+}
+.flex_picture3:hover {
+    cursor: pointer;
+    background-color: rgba(252, 252, 252, 0.95);
+    width: 7.5vw;
+    height: 7.5vw;
+    transition: all 300ms;
+    margin-left: -0.625vw;
+    margin-top: 0.625vw;
+}
+@media all and (max-width: 1100px) {
+
+    .flex_picture{
+        display: flex;
+        flex-direction: row;
+        width: 20vw;
+        height: 6.25vw;
+        position: relative;
+        margin: auto;
+        z-index: 2;
+        margin-top: -20.44vw;
+        left: 0.188vw;
+        justify-content: space-between;}
+    .flex_card {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;}
+    .flex_picture1{
+        margin-right: 0.625vw;}
+    .flex_picture3{
+        margin-top: 0px; margin-left: 0.625vw;}
+    .flex_picture2:hover{margin-left: 0.3125vw; }
+    .flex_picture3:hover {margin-top: 0; margin-left: 0.3125vw; }
+    h3{
+        position: relative;
+        top: -16.875vw;
+        left: -8.125vw;
+        color: white;
+        font-family: 'Montserrat Light', sans-serif;}
+    .flex_knopka{display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 25vw;
+        height: 2.625vw;}
+
+    a.one{margin-left: 3.125vw; }
+    .prise{
+        font-size: 2.3125vw;
+        margin-left: 3.125vw;
+        font-family: 'Montserrat ExtraLight';}
+    .flex_card__white{
+        display: block;
+        padding-left: 0;
+        align-items: center;
+        width: 28.125vw;
+        height: 43.75vw;
+    }
+    .foto{margin-top: -2.5vw;}
+    .shadow{margin-top: -5.625vw;
+    margin-left: 2.5vw;}
+    h3{top: -19.375vw;}
+    .flex_knopka{margin-left: 0.3125vw;}
+
+}
